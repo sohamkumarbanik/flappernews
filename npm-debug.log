@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.12.0
+3 info using node@v0.12.5
+4 verbose node symlink /usr/local/bin/node
+5 warn invalid config https-proxy="“http://proxy-name:8080”"
+6 warn invalid config Must be a full url with 'http://'
+7 verbose run-script [ 'prestart', 'start', 'poststart' ]
+8 info prestart flapper-news@0.0.0
+9 info start flapper-news@0.0.0
+10 verbose unsafe-perm in lifecycle true
+11 info flapper-news@0.0.0 Failed to exec start script
+12 verbose stack Error: flapper-news@0.0.0 start: `node ./bin/www`
+12 verbose stack Exit status 1
+12 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+12 verbose stack     at EventEmitter.emit (events.js:110:17)
+12 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+12 verbose stack     at ChildProcess.emit (events.js:110:17)
+12 verbose stack     at maybeClose (child_process.js:1015:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+13 verbose pkgid flapper-news@0.0.0
+14 verbose cwd /home/local/LIMTEXCAL/sohambanik/Projects/node/flapper-news
+15 error Linux 3.13.0-37-generic
+16 error argv "node" "/usr/local/bin/npm" "start"
+17 error node v0.12.5
+18 error npm  v2.12.0
+19 error code ELIFECYCLE
+20 error flapper-news@0.0.0 start: `node ./bin/www`
+20 error Exit status 1
+21 error Failed at the flapper-news@0.0.0 start script 'node ./bin/www'.
+21 error This is most likely a problem with the flapper-news package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     node ./bin/www
+21 error You can get their info via:
+21 error     npm owner ls flapper-news
+21 error There is likely additional logging output above.
+22 verbose exit [ 1, true ]
