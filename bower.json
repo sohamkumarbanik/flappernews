@@ -1,0 +1,34 @@
+{
+  "name": "flapper-news",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sohamkumarbanik/flappernews",
+  "description": "learn node, angular, mongo",
+  "main": "app.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "node",
+    "angular",
+    "mongo",
+    "express",
+    "bootstrap",
+    "html5"
+  ],
+  "authors": [
+    "Soham Kumar Banik"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
